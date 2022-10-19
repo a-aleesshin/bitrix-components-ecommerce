@@ -1,0 +1,104 @@
+.products-slider {
+    width: calc(100% - 40px);
+    max-width: 1470px;
+    margin: 40px auto;
+}
+.products-slider_title {
+    text-align: right;
+    padding: 0 7px;
+    margin-bottom: -6px;
+}
+.products-slider .h2 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.products-slider_link-all {
+    position: absolute;
+    margin: -47px 0 0 7px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.products-slider_arrows {
+    height: 30px;
+    position: relative;
+    margin: 25px 7px 25px 0;
+}
+.products-slider._no-link .products-slider_arrows {
+    margin: -35px 7px 40px 0;
+}
+.products-slider_items {
+    width: 100%;
+    height: 457px;
+    overflow: hidden;
+}
+
+.products-slider_items .products-item {
+    width: 282px;
+    float: left;
+}
+.products-slider_items .products-item_img img {
+    width: 100%;
+    /*height: auto !important;*/
+}
+@media (max-width: 1620px) {
+    .products-slider {
+        max-width: 1180px;
+    }
+    .products-slider .h2 {
+        font-size: 36px;
+    }
+    .products-slider_link-all {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1420px) {
+    .products-slider {
+        width: calc(100% - 20px);
+    }
+    .products-slider .h2 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 1000px) {
+    .products-slider {
+        width: calc(100% - 200px);
+    }
+    .products-slider .h2 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 760px) {
+    .products-slider {
+        width: calc(100% - 26px);
+        margin: 90px auto !important;
+    }
+}
+@media (max-width: 580px) {
+    .products-slider_arrows i.slick-prev {
+        right: 97px;
+    }
+    .products-slider_arrows .slick-next {
+        width: 76px;
+        background-position: right;
+        background-size: auto;
+    }
+    .products-slider._no-link .products-slider_title {
+        width: calc(100% - 120px);
+    }
+    .products-slider._no-link .products-slider_arrows {
+        width: 115px;
+        margin: -30px 7px 20px auto;
+
+    }
+}
+
+.products-item_name {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
